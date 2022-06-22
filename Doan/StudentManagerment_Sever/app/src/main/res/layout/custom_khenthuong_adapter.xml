@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3.0"
+
+>
+
+
+    <TextView
+        android:id="@+id/tenongvangpolytxt"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_weight="1.0"
+        android:text="Tên"
+        android:textColor="@android:color/background_dark"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/masvongvang"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_weight="1.0"
+        android:text="Mã SV"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/dtbongvang"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:text="Điểm"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp" />
+
+
+
+
+</LinearLayout>
+
+
+

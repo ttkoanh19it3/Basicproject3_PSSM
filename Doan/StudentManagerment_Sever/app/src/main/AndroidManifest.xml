@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doan.studentmanagerment_sever">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@drawable/shool1"
+        android:label="Student Management"
+        android:roundIcon="@drawable/ic_launcher_background"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+
+        <activity android:name="com.example.doan.studentmanagerment_sever.Activity.Waiting_Activity">
+
+
+        </activity>
+        <activity android:name="com.example.doan.studentmanagerment_sever.Activity.Login_Activity"> <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter> </activity>
+        <activity android:name="com.example.doan.studentmanagerment_sever.Activity.MainApp_Activity" />
+        <activity android:name="com.example.doan.studentmanagerment_sever.Activity.Sinhvien_activity" />
+        <activity android:name="com.example.doan.studentmanagerment_sever.Activity.Monhoc_Activity" />
+        <activity android:name="com.example.doan.studentmanagerment_sever.Activity.Diem_Activity" />
+        <activity android:name="com.example.doan.studentmanagerment_sever.Activity.Lichhoc_Activity" />
+        <activity android:name="com.example.doan.studentmanagerment_sever.Activity.ThemSV04_Activity" />
+        <activity android:name="com.example.doan.studentmanagerment_sever.Activity.Chinhsua_sv04_Activity" />
+        <activity android:name="com.example.doan.studentmanagerment_sever.Activity.Them_sv05_Activity" />
+        <activity android:name="com.example.doan.studentmanagerment_sever.Activity.Chinhsua_sv05_Activity"></activity>
+        <activity android:name="com.example.doan.studentmanagerment_sever.Activity.AccountActivity"></activity>
+    </application>
+
+</manifest>
